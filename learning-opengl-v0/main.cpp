@@ -20,6 +20,8 @@ int main() {
 		glfwTerminate();
 		return -1;
 	}
+	else
+		std::cout << "Success!";
 	glfwMakeContextCurrent(window);
 
 	return 0;
