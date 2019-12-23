@@ -76,7 +76,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\vs_OpenGL_h_lib\include\GLFW;C:\vs_OpenGL_h_lib\include\glad;C:\vs_OpenGL_h_lib\include\KHR;$(IncludePath)</IncludePath>
+    <IncludePath>C:\vs_OpenGL_h_lib\include;$(IncludePath)</IncludePath>
     <LibraryPath>C:\vs_OpenGL_h_lib\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
