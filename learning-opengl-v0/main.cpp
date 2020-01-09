@@ -44,7 +44,13 @@ int main() {
 
 	// render loop
 	while (!glfwWindowShouldClose(window)) {
+		// take input at every frame
 		processInput(window);
+
+		// rendering commands go here
+		glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
+		glClear(GL_COLOR_BUFFER_BIT);
+
 		// see what keys were pressed/released, mouse movement, etc..
 		glfwSwapBuffers(window);
 		glfwPollEvents();
