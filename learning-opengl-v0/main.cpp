@@ -50,6 +50,8 @@ int main() {
 		glfwPollEvents();
 	}
 
+	// cleans up all previously allocated GLFW resources
+	glfwTerminate();
 	return 0;
 }
 
