@@ -9,6 +9,12 @@ void processInput(GLFWwindow* window);
 const unsigned int SCR_WIDTH = 800;
 const unsigned int SCR_HEIGHT = 600;
 
+float verticies[] = {
+	-0.5f, -0.5f, 0.0f,
+	0.5f, -0.5f, 0.0f,
+	0.0f, 0.5f, 0.0f
+};
+
 int main() {
 	// initialize GLFW using glfwInit
 	glfwInit();
@@ -60,7 +66,7 @@ int main() {
 	return 0;
 }
 
-// process all input; query GLFW if keys are pressed/released this frame and act
+// process all input; query GLFW if keys are pressed/released this frame and act 
 void processInput(GLFWwindow* window) {
 	if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
 		glfwSetWindowShouldClose(window, true);
