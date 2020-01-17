@@ -23,11 +23,11 @@ const char* vertexShaderSource = "#version 330 core\n"
 	"}\0";
 
 const char* fragmentShaderSource = "#version 330 core\n"
-"out vec4 FragColor;\n"
-"void main()\n"
-"{\n"
-"   FragColor = vec4(1.0f, 0.5f, 0.2f, 1.0f);\n"
-"}\n\0";
+	"out vec4 FragColor;\n"
+	"void main()\n"
+	"{\n"
+	"   FragColor = vec4(1.0f, 0.5f, 0.2f, 1.0f);\n"
+	"}\n\0";
 
 int main() {
 	// initialize GLFW using glfwInit
@@ -62,7 +62,6 @@ int main() {
 	}
 
 	// set up vertex data (and buffer(s)) and configure vertex attributes
-// ------------------------------------------------------------------
 	float vertices[] = {
 		 0.5f,  0.5f, 0.0f,  // top right
 		 0.5f, -0.5f, 0.0f,  // bottom right
