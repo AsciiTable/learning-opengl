@@ -73,7 +73,6 @@ int main() {
 		1, 2, 3   // second Triangle
 	};
 
-
 	// render loop
 	while (!glfwWindowShouldClose(window)) {
 		// take input at every frame
