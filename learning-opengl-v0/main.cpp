@@ -92,6 +92,7 @@ int main() {
 	return 0;
 }
 
+
 // process all input; query GLFW if keys are pressed/released this frame and act 
 void processInput(GLFWwindow* window) {
 	if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
