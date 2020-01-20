@@ -61,6 +61,10 @@ int main() {
 		return -1;
 	}
 
+	// build and compile shader program
+	// vertex shader
+
+
 	// set up vertex data (and buffer(s)) and configure vertex attributes
 	float vertices[] = {
 		 0.5f,  0.5f, 0.0f,  // top right
