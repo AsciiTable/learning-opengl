@@ -55,6 +55,7 @@ int main() {
 	// calls the framebuffer resize funct
 	glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
 
+
 	// stop if OpenGL function pointers are not loaded by GLAD
 	if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress)) {
 		std::cout << "Failed to initialize GLAD" << std::endl;
